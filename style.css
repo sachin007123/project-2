@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.menu {
+  background: linear-gradient(to right, rgb(2, 2, 72), rgb(30, 30, 180));
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 86px;
+  border-style: white solid 1px;
+}
+
+.menu-logo {
+  font-size: 30px;
+}
+
+
+.menu ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+
+.b-head {
+  background: url("logis.png") center;
+ 
+  height: 500px;
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;     
+  text-align: center;
+
+}
+
+
+.b-title {
+  font-size: 30px;
+  color: rgb(11, 11, 11);
+  margin-bottom: 10px;
+  font-weight: bolder;
+
+}
+
+
+.b-phara {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color:black;
+  max-width: 700px;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.e-head{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;     
+  text-align: center;
+
+}
+
+.e-box{
+  border-color: black;
+    border-width: 2px;
+    border-radius: 6px;
+    border-style: solid;
+    display: inline-block;
+    width: 300px;
+    margin:10px;
+    height: 25vh;
+
+}
+
+.e-boxses .e-box:hover{
+
+transform: translateY(-5px);
+box-shadow: rgb(107, 107, 247) 0px 0px 8px;
+}
+
+.e-boxses{
+  text-align: center;
+}
+
+.e-boxses h3{
+  padding: 30px;
+}
+
+.e-boxses p{
+  color:rgb(132, 130, 130);
+  
+}
+
+.e-title{
+   font-size: 38px;
+  color: rgb(11, 11, 11);
+  margin-bottom: 10px;
+  font-weight: bolder;
+  padding-top: 25px;
+
+}
+
+.e-subtitle{
+
+   font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color:rgb(125, 124, 124);
+  max-width: 700px;
+  margin-bottom: 20px;
+  border-color: black;
+
+}
+
+.e-box i{
+  font-size: 35px;
+  
+}
+
+.s-head{
+  background-color:rgb(221, 221, 221) ;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;     
+  text-align: center;
+
+}
+
+.s-box{
+  border-color: black;
+    border-width: 2px;
+    border-radius: 6px;
+    border-style: solid;
+    display: inline-block;
+    width: 400px;
+    margin:10px;
+    
+ 
+
+}
+
+.s-boxses{
+  text-align: center;
+  background-color: rgb(221, 221, 221);
+}
+
+.s-title{
+   font-size: 38px;
+  color: rgb(11, 11, 11);
+  margin-bottom: 10px;
+  font-weight: bolder;
+  padding-top: 25px;
+
+}
+
+.s-subtitle{
+
+   font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color:rgb(125, 124, 124);
+  max-width: 700px;
+  margin-bottom: 20px;
+  border-color: black;
+
+}
+
+.s-boxses h3{
+  padding: 20px;
+}
+
+.s-boxses p{
+  color:rgb(116, 116, 116);
+  
+}
+
+.s-box button{
+  width: 70%;
+  padding: 8px 16px;
+  margin: 10px;
+
+  border-width: 1;
+  border-radius: 5px;
+
+}
+
+.s-boxses button a{
+  text-decoration: none;
+  color: black;
+}
+
+.s-boxses button:hover{
+ background-color: orange;
+  cursor: pointer;
+
+
+
+}
+
+.s-boxses .s-box:hover{
+  box-shadow: rgb(130, 129, 129) 0px 0px 8px;
+  transform: translateX(-5px);
+}
+
+.menu a{
+  text-decoration: none;
+}
+
+.menu a{
+  color: rgb(239, 239, 239);
+}
+
+.menu li:hover{
+  background: rgb(57, 58, 58) ;
+  border-radius: 8px;
+  color: rgb(250, 253, 255);
+  transform: translateY(-6px);
+  
+  
+
+
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+
+}
+
+footer{
+  background-color: rgb(1, 1, 79);
+  color: aliceblue;
+  height: 50px;
+  text-align: center;
+  padding: 20px 0px 0px;
+  border-color: aliceblue;
+  
+}
+
+@media(max-width:400px){
+
+    .menu{
+        flex-direction:column;
+        gap:8px;
+       
+      
+    }
+
+
+}
+
+
+
